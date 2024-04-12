@@ -3,7 +3,8 @@ Written by Drs. Julie Ottoy and Min Su Kang, updated April 11 2024.
 1. Open a terminal and cd into the unzipped folder NatComm_gradient_final. Then follow the instructions below.
 
 2. Create a virtual environment called 'gradient_natcomm' and install pip: conda create -n gradient_natcomm python=3.7.6 pip
-2.1 If Apple silicon chip, then instead do:
+
+   If Apple silicon chip, then instead do:
 - create empty environment: conda create -n gradient_natcomm
 - activate: conda activate gradient_natcomm
 - use x86_64 architecture channel(s): conda config --env --set subdir osx-64
