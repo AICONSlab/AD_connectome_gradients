@@ -1,0 +1,28 @@
+[project]
+name = "gradients"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "brainspace>=0.1.22",
+    "ipykernel>=7.2.0",
+    "kaleido>=1.2.0",
+    "matplotlib>=3.10.8",
+    "nilearn>=0.13.1",
+    "pandas>=3.0.2",
+    "plotly>=6.7.0",
+    "ruff>=0.15.12",
+    "scikit-learn>=1.8.0",
+    "tqdm>=4.67.3",
+    "vtk==9.2.6",
+]
+[tool.ruff]
+line-length = 78
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
